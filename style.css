@@ -1,0 +1,50 @@
+.header{
+    height: 60px;
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+     align-items: center;
+     justify-content: center;    
+     
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+     border:3px solid rgb(20, 15, 15) ;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 2px;
+    align-items: center;
+    border-radius: 30px;
+    
+    
+}
+nav a{
+    color: black;
+}
+*{
+    /* background: linear-gradient(135deg,  #000000, #434343, #1a1a1a); */
+    background-color: cadetblue;
+}
+.footercontainer{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    border: 2px solid black;
+    align-items: center;
+    text-align: center;
+
+}
+.footer-box a{
+    color: black;
+    display: block;
+
+}
+.footer-box1{
+    width: 300px;
+    line-height:12px;
+
+}
+    
+
