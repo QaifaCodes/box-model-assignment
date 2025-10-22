@@ -1,0 +1,94 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+================================ Header section ========================================
+.header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3E5172; 
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+}
+
+================================ Hero section ========================================
+
+main{
+    background-color: #B8BBC0;
+}
+
+main h2{
+    text-align: center;
+}
+
+.content-box h2 {
+    text-align: center;
+    text-decoration:underline;
+}
+
+main h2{
+    text-decoration: underline;
+}
+
+================================ Footer section ========================================
+footer{
+    background-color: black;
+    color: aliceblue;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+}
+
+.footer-box1 {
+    width: 33%;
+}
+
+.footer-box2 {
+    width: 33%;
+}
+
+.footer-box3 {
+    width: 33%;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+.footercontainer h3 {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-bottom{
+    text-align: end;
+} */

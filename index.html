@@ -1,119 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="header">
-            <h1>
-                My Mini Web Page
-            </h1>
+    <!-- =================================== Header Section ========================================== -->
+  <header class=" header">
+    <div>
+      <h1 style="color: aliceblue;">
+        First Assignment
+      </h1>
+    </div>
 
-        </div>
-        <!-- Navigation Bar -->
-        <nav class="navbar">
-            
-                
-                    <a href="#">Home</a>
-                
-                
-                    <a href="#">About</a>
-                
-                
-                    <a href="#">Services</a>
-                
-                
-                    <a href="#">Contacts</a>
-                
-            
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contacts</a>
 
-        </nav>
+      <input type="text" placeholder="search here">
+      <a href="#">JOIN US</a>
+    </nav>
 
-    </header>
-    <!-- Main Content -->
-     <main>
-        <section class="content box">
-            <h2> Box Model</h2>
-            <p>The CSS Box Model describes how every HTML element is structured like a rectangular box on a web page.
-                <br>
-Each element has four main layers:
-<ul class="circle">
-    <li><b>Content:</b> The actual text or image inside the box. <br>Syntax: <b><p>Hello World</p></b></li>
+  </header>
+  <!-- =================================== Hero Section ========================================== -->
 
-    <li><b>Padding:</b> Space between content and thr border. <br> Syntax: <b>padding: 20px;</b> </li>
+  <main>
+    <section class="content-box">
+      <h2> Box Model</h2>
+      <p>The CSS Box Model describes how every HTML element is structured like a rectangular box on a web page.
+        <br>
+        Each element has four main layers:
+      <ul class="circle">
+        <li><b>Content:</b> The actual text or image inside the box. <br>Syntax: <b>
+            <p>Hello World</p>
+          </b></li>
 
-    <li><b>Border:</b> The visible line surrounding the padding . <br> Syntax: <b>border: 3px solid blue;</b></li>
+        <li><b>Padding:</b> Space between content and thr border. <br> Syntax: <b>padding: 20px;</b> </li>
 
-    <li><b>Margin:</b> Space outside the border (between this box and others). <br> Syntax: <b>margin:15px:</b></li>
+        <li><b>Border:</b> The visible line surrounding the padding . <br> Syntax: <b>border: 3px solid blue;</b></li>
 
-</ul>
-</p>
-        </section>
+        <li><b>Margin:</b> Space outside the border (between this box and others). <br> Syntax: <b>margin:15px:</b></li>
 
-        <section class="color schemes">
+      </ul>
+      </p>
+    </section>
 
-            <h2> Color scheme</h2>
+    <section class="color-schemes">
+      <h2> Color scheme</h2>
 
+      <p>
+        color scheme is the combination of colors you choose for your website design —
+        for example: background color, text color, buttons, and section highlights.
 
-            <p>
-            color scheme is the combination of colors you choose for your website design —
-for example: background color, text color, buttons, and section highlights.
+        Good color schemes make your page look attractive and readable.</p>
 
-Good color schemes make your page look attractive and readable.</p>
+      <h2> Background in CSS</h2>
 
-<h2> Background in CSS</h2>
+      The background property in CSS allows you to add:
 
-The background property in CSS allows you to add:
+      <ul class="square">
+        <li>Solid colors <br>Syntax: <b>background-color: lightblue;</b> </li>
+        <li>Gradient colors (smooth color blends) <br> Syntax: <b>background: linear-gradient(to right, red,yellow);</b>
+        </li>
+        <li>Images (for background images)</li>
+        <li>rgba() Adds color + transparency <br> Syntax: <b>background-color: rgba(0, 0, 255, 0.3);</b></li>
+      </ul>
 
-<ul class="square">
+    </section>
+    <section class="outline and border">
 
-    <li>Solid colors <br>Syntax: <b>background-color: lightblue;</b> </li>
+      <h2>Border</h2>
+      <p>The border is a line drawn around the padding and content of an element.
+        It is part of the box model and takes up space in the layout. <br> Syntax: <b>border: 2px solid blue;</b></p>
+      <h2>
+        outline
+      </h2>
+      <p>
+        The outline is a line drawn outside the element’s border.
+        It is not part of the box model, so it does not take up space — it just highlights the element. <br> Syntax :
+        <b>outline: 2px dashed red;</b>
+      </p>
 
-    <li>Gradient colors (smooth color blends) <br> Syntax: <b>background: linear-gradient(to right, red, yellow);</b> </li>
+    </section>
+    <section class="fixed and relative h/w">
+      <h2>
+        Fixed Width / Height
+      </h2>
+      <p>Fixed size means the element’s width and height stay the same no matter the screen size (not responsive). <br>
+        Syntax: <b>.box-fixed {
+          width: 300px; <br>
+          height: 200px;
+          }</b></p>
 
-    <li>Images   (for background images)</li>
+      <h2>Relative Width / Height</h2>
+      <p>Relative size changes according to the parent element or screen size — more responsive. <br> <b>Syntax:
+          .box-relative {
+          width: 80%;
+          height: auto;}</b></p>
 
-    <li>rgba() Adds color + transparency <br> Syntax: <b>background-color: rgba(0, 0, 255, 0.3);</b></li>
-</ul>
-
-        </section>
-        <section class="outline and border">
-
-            <h2>Border</h2>
-
-            <p>The border is a line drawn around the padding and content of an element.
-It is part of the box model and takes up space in the layout. <br> Syntax: <b>border: 2px solid blue;</b></p>
-<h2>
-    outline
-</h2>
-<p>
-    The outline is a line drawn outside the element’s border.
-It is not part of the box model, so it does not take up space — it just highlights the element. <br> Syntax : <b>outline: 2px dashed red;</b>
-</p>
-
-        </section>
-        <section class="fixed and relative h/w">
-            <h2>
-                Fixed Width / Height
-            </h2>
-            <p>Fixed size means the element’s width and height stay the same no matter the screen size (not responsive). <br> Syntax: <b>.box-fixed {
-  width: 300px; <br>  
-  height: 200px;  
-}</b></p>
-
-<h2>Relative Width / Height</h2>
-<p>Relative size changes according to the parent element or screen size — more responsive. <br> <b>Syntax: .box-relative {
-  width: 80%;   
-  height: auto;}</b></p>
-
-        </section>
-     </main>
-     <!-- Footer Section -->
+    </section>
+  </main>
+  <!-- =================================== Footer Section ========================================== -->
   <footer>
     <div class="footercontainer">
 
@@ -122,16 +115,22 @@ It is not part of the box model, so it does not take up space — it just highli
         <p>We design modern and responsive web layouts to make the web beautiful and easy to use.</p>
       </div>
 
-      <div class="footer-box">
-        <h3>Quick Links</h3>
-        <a href="#">Home</a> |
-        <a href="#">Services</a> |
-        <a href="#">Projects</a> |
-        <a href="#">Contact</a> |
+      <div class="footer-box2">
+        <div class="haeding">
+          <h3>Quick Links</h3>
+        </div>
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#">Services</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact</a>
+        </div>
       </div>
 
-      <div class="footer-box">
-        <h3>Follow Us</h3>
+      <div class="footer-box3">
+        <div class="haeding">
+          <h3>Follow Us</h3>
+        </div>
         <div class="social-icons">
           <a href="#">🌐</a>
           <a href="#">📘</a>
@@ -141,11 +140,11 @@ It is not part of the box model, so it does not take up space — it just highli
       </div>
 
     </div>
-     <div class="footer-bottom">
+    <hr>
+    <div class="footer-bottom">
       © 2025 Qaifa Designs | All Rights Reserved
     </div>
   </footer>
-
 
 </body>
 </html>
